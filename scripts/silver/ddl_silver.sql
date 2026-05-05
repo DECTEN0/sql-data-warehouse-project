@@ -23,7 +23,7 @@ CREATE TABLE silver.crm_cust_info(
 	cust_lastname NVARCHAR(50),
 	cust_marital_status NVARCHAR(50),
 	cust_gender NVARCHAR(50),
-	cust_create_data DATE,
+	cust_create_date DATE,
 	dwh_create_dt DATETIME2 DEFAULT GETDATE()
 );
 
