@@ -109,7 +109,7 @@ BEGIN
 		SELECT 
 			prd_id,
 			REPLACE(SUBSTRING(prd_key, 1, 5), '-', '_') AS cat_id,  -- Extract cat_id from prd_key and replace '-' with '_'
-			SUBSTRING(prd_key, 1, LEN(prd_key)) AS prd_key,  -- Extract prd_key from the first 5 characters of prd_key
+			SUBSTRING(prd_key, 7, LEN(prd_key)) AS prd_key,  -- Extract prd_key from the first 5 characters of prd_key
 			prd_nm,
 			ISNULL(prd_cost, 0) AS prd_cost,  -- Replace NULL prd_cost with 0
 			CASE UPPER(TRIM(prd_line))
