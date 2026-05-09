@@ -74,6 +74,13 @@ This repository is my introduction to Data Engineering:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
+---
+
+## 📌 Project Management
+
+The project was managed via notion, here is the project task tracker and breakdown;
+
+ **[Notion](https://www.notion.so/SQL-Data-Warehouse-Project-6641eee8cdc283fba49781be6b6db424?source=copy_link)**
 
 ---
 
